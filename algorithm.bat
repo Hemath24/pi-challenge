@@ -1,7 +1,7 @@
 @echo off
 :: Print Fibonacci Numbers
 :: https://helloacm.com
-> reoprt.txt(
+
 title Fibonacci Numbers
 
 setlocal enableextensions enabledelayedexpansion
@@ -19,5 +19,5 @@ for /l %%g in (1,1,%n%) do (
 )
 
 echo !s!
-)
+
 endlocal
