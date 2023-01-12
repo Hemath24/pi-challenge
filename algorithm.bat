@@ -19,5 +19,5 @@ for /l %%g in (1,1,%n%) do (
 )
 
 echo !s!
-whatever | tee.exe text.txt
+> reoprt.txt
 endlocal
