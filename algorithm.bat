@@ -19,5 +19,5 @@ for /l %%g in (1,1,%n%) do (
 )
 
 echo !s!
-tee report.txt
+whatever | tee.exe text.txt
 endlocal
